@@ -1,0 +1,67 @@
+set size square
+set xrange[0:50]
+set yrange[0:50]
+set key out vert
+set xlabel 'Posicion x (Km)'
+set ylabel 'Posicion y (Km)'
+unset key
+set label 1 '1' at 7, 7, 0 nopoint tc def
+set label 2 '2' at 7, 17, 0 nopoint tc def
+set label 3 '3' at 7, 27, 0 nopoint tc def
+set label 4 '4' at 7, 37, 0 nopoint tc def
+set label 5 '5' at 7, 47, 0 nopoint tc def
+set label 6 '6' at 17, 7, 0 nopoint tc def
+set label 7 '7' at 17, 17, 0 nopoint tc def
+set label 8 '8' at 17, 27, 0 nopoint tc def
+set label 9 '9' at 17, 37, 0 nopoint tc def
+set label 10 '10' at 17, 47, 0 nopoint tc def
+set label 11 '11' at 27, 7, 0 nopoint tc def
+set label 12 '12' at 27, 17, 0 nopoint tc def
+set label 13 '13' at 27, 27, 0 nopoint tc def
+set label 14 '14' at 27, 37, 0 nopoint tc def
+set label 15 '15' at 27, 47, 0 nopoint tc def
+set label 16 '16' at 37, 7, 0 nopoint tc def
+set label 17 '17' at 37, 17, 0 nopoint tc def
+set label 18 '18' at 37, 27, 0 nopoint tc def
+set label 19 '19' at 37, 37, 0 nopoint tc def
+set label 20 '20' at 37, 47, 0 nopoint tc def
+set label 21 '21' at 47, 7, 0 nopoint tc def
+set label 22 '22' at 47, 17, 0 nopoint tc def
+set label 23 '23' at 47, 27, 0 nopoint tc def
+set label 24 '24' at 47, 37, 0 nopoint tc def
+set label 25 '25' at 47, 47, 0 nopoint tc def
+plot '<echo 5  5  0' pt 9 ps 1 lc 0
+replot '<echo 5  15' pt 9 ps 1 lc 0
+replot '<echo 5  25' pt 9 ps 1 lc 0
+replot '<echo 5  35' pt 9 ps 1 lc 0
+replot '<echo 5  45' pt 9 ps 1 lc 0
+replot '<echo 15  5' pt 9 ps 1 lc 0
+replot '<echo 15  15' pt 9 ps 1 lc 0
+replot '<echo 15  25' pt 9 ps 1 lc 0
+replot '<echo 15  35' pt 9 ps 1 lc 0
+replot '<echo 15  45' pt 9 ps 1 lc 0
+replot '<echo 25  5' pt 9 ps 1 lc 0
+replot '<echo 25  15' pt 9 ps 1 lc 0
+replot '<echo 25  25' pt 9 ps 1 lc 0
+replot '<echo 25  35' pt 9 ps 1 lc 0
+replot '<echo 25  45' pt 9 ps 1 lc 0
+replot '<echo 35  5' pt 9 ps 1 lc 0
+replot '<echo 35  15' pt 9 ps 1 lc 0
+replot '<echo 35  25' pt 9 ps 1 lc 0
+replot '<echo 35  35' pt 9 ps 1 lc 0
+replot '<echo 35  45' pt 9 ps 1 lc 0
+replot '<echo 45  5' pt 9 ps 1 lc 0
+replot '<echo 45  15' pt 9 ps 1 lc 0
+replot '<echo 45  25' pt 9 ps 1 lc 0
+replot '<echo 45  35' pt 9 ps 1 lc 0
+replot '<echo 45  45' pt 9 ps 1 lc 0
+replot '<echo 25.0268  25.0268' pt 7 ps 2 lc 1
+replot '<echo 25.0071  25.0071' pt 7 ps 2 lc 1
+replot '<echo 25.0964  25.0964' pt 7 ps 2 lc 1
+replot '<echo 25.1978  25.1978' pt 7 ps 2 lc 1
+replot '<echo 25.004  25.004' pt 7 ps 2 lc 1
+replot '<echo 25.1131  25.1131' pt 7 ps 2 lc 1
+replot '<echo 25.1517  25.1517' pt 7 ps 2 lc 1
+replot '<echo 25.2841  25.2841' pt 7 ps 2 lc 1
+replot '<echo 25.4684  25.4684' pt 7 ps 2 lc 1
+pause 60

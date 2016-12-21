@@ -1,0 +1,113 @@
+set size square
+set xrange[-50:175]
+set yrange[-125:165]
+set key out vert
+set xlabel 'Posicion x (Km)'
+set ylabel 'Posicion y (Km)'
+unset key
+set label 1 'ACA' at -20.54, 135.998, 0 nopoint tc def
+set label 2 'AGL' at 22.614, 147.011, 0 nopoint tc def
+set label 3 'ARE' at 53.018, 79.347, 0 nopoint tc def
+set label 4 'CAP' at -28.608, 149.567, 0 nopoint tc def
+set label 5 'CAR' at 67.103, 51.455, 0 nopoint tc def
+set label 6 'CHA' at 56.944, 139.179, 0 nopoint tc def
+set label 7 'COC' at 50.627, 43.584, 0 nopoint tc def
+set label 8 'CUC' at 24.451, 22.378, 0 nopoint tc def
+set label 9 'DBB' at 98.236, -30.516, 0 nopoint tc def
+set label 10 'EL4' at 15.584, 35.168, 0 nopoint tc def
+set label 11 'GIL' at -0.096, 100.067, 0 nopoint tc def
+set label 12 'GUA' at 110.577, 91.124, 0 nopoint tc def
+set label 13 'HEL' at 173.785, -121.702, 0 nopoint tc def
+set label 14 'JUR' at 59.345, 26.736, 0 nopoint tc def
+set label 15 'LOL' at 81.24, 126.499, 0 nopoint tc def
+set label 16 'MUL' at 58.348, 93.703, 0 nopoint tc def
+set label 17 'NAN' at 64.215, 82.633, 0 nopoint tc def
+set label 18 'NEC' at 32.756, 126.612, 0 nopoint tc def
+set label 19 'PPI' at 38.426, 100.132, 0 nopoint tc def
+set label 20 'PRI' at 54.255, 65.835, 0 nopoint tc def
+set label 21 'RUS' at 89.971, 104.329, 0 nopoint tc def
+set label 22 'SJN' at 63.621, 162.829, 0 nopoint tc def
+set label 23 'SOL' at -34.42, -117.63, 0 nopoint tc def
+set label 24 'SPD' at 81.85, 107.053, 0 nopoint tc def
+set label 25 'TRI' at -2.988, 120.065, 0 nopoint tc def
+set label 26 'UNG' at -2.429, 85.15, 0 nopoint tc def
+plot '<echo -22.54  133.998  0' pt 9 ps 1 lc 0
+replot '<echo 20.614  145.011' pt 9 ps 1 lc 0
+replot '<echo 51.018  77.347' pt 9 ps 1 lc 0
+replot '<echo -30.608  147.567' pt 9 ps 1 lc 0
+replot '<echo 65.103  49.455' pt 9 ps 1 lc 0
+replot '<echo 54.944  137.179' pt 9 ps 1 lc 0
+replot '<echo 48.627  41.584' pt 9 ps 1 lc 0
+replot '<echo 22.451  20.378' pt 9 ps 1 lc 0
+replot '<echo 96.236  -32.516' pt 9 ps 1 lc 0
+replot '<echo 13.584  33.168' pt 9 ps 1 lc 0
+replot '<echo -2.096  98.067' pt 9 ps 1 lc 0
+replot '<echo 108.577  89.124' pt 9 ps 1 lc 0
+replot '<echo 171.785  -123.702' pt 9 ps 1 lc 0
+replot '<echo 57.345  24.736' pt 9 ps 1 lc 0
+replot '<echo 79.24  124.499' pt 9 ps 1 lc 0
+replot '<echo 56.348  91.703' pt 9 ps 1 lc 0
+replot '<echo 62.215  80.633' pt 9 ps 1 lc 0
+replot '<echo 30.756  124.612' pt 9 ps 1 lc 0
+replot '<echo 36.426  98.132' pt 9 ps 1 lc 0
+replot '<echo 52.255  63.835' pt 9 ps 1 lc 0
+replot '<echo 87.971  102.329' pt 9 ps 1 lc 0
+replot '<echo 61.621  160.829' pt 9 ps 1 lc 0
+replot '<echo -36.42  -119.63' pt 9 ps 1 lc 0
+replot '<echo 79.85  105.053' pt 9 ps 1 lc 0
+replot '<echo -4.988  118.065' pt 9 ps 1 lc 0
+replot '<echo -4.429  83.15' pt 9 ps 1 lc 0
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+replot '<echo nan  nan' pt 7 ps 2 lc 1
+pause 60

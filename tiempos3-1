@@ -1,0 +1,8 @@
+#!/bin/sh
+
+awk 'BEGIN{j=0}{ if($1=="SISMO") {i=1;j++} else if($2=="P"){   a[j]=$3; if(i==1){am[j]=a[j]}; if(a[j]<=am[j]){am[j]=a[j]} ;i++  } }END{for(k=1;k<=j;k++)print am[k]}' DIR_TTEO>DIR_MODI_PRUEBA
+
+awk 'BEGIN{print 1,1,1}{print 25,25,25,$1}END {print 5}' DIR_MODI_PRUEBA>DIR_MODI3
+
+awk 'BEGIN{c=0; d=0} {if ($1=="SISMO") {c++}else{d++}} END{print "Numero de sismos: "c "\nNumero de picadas: "d}' DIR_TTEO
+rm DIR_MODI_PRUEBA

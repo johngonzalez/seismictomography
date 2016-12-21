@@ -1,0 +1,526 @@
+set size square
+set xrange[-125:200]
+set yrange[-125:200]
+set key out vert
+set xlabel 'Posicion x (Km)'
+set ylabel 'Posicion y (Km)'
+unset key
+set style arrow 7 nohead ls 1
+set label 1 'ACA' at -20.54, 135.998, 0 nopoint tc def
+set label 2 'AGL' at 22.614, 147.011, 0 nopoint tc def
+set label 3 'ARE' at 53.018, 79.347, 0 nopoint tc def
+set label 4 'CAP' at -28.608, 149.567, 0 nopoint tc def
+set label 5 'CAR' at 67.103, 51.455, 0 nopoint tc def
+set label 6 'CHA' at 56.944, 139.179, 0 nopoint tc def
+set label 7 'COC' at 50.627, 43.584, 0 nopoint tc def
+set label 8 'CUC' at 24.451, 22.378, 0 nopoint tc def
+set label 9 'DBB' at 98.236, -30.516, 0 nopoint tc def
+set label 10 'EL4' at 15.584, 35.168, 0 nopoint tc def
+set label 11 'GIL' at -0.096, 100.067, 0 nopoint tc def
+set label 12 'GUA' at 110.577, 91.124, 0 nopoint tc def
+set label 13 'HEL' at 173.785, -121.702, 0 nopoint tc def
+set label 14 'JUR' at 59.345, 26.736, 0 nopoint tc def
+set label 15 'LOL' at 81.24, 126.499, 0 nopoint tc def
+set label 16 'MUL' at 58.348, 93.703, 0 nopoint tc def
+set label 17 'NAN' at 64.215, 82.633, 0 nopoint tc def
+set label 18 'NEC' at 32.756, 126.612, 0 nopoint tc def
+set label 19 'PPI' at 38.426, 100.132, 0 nopoint tc def
+set label 20 'PRI' at 54.255, 65.835, 0 nopoint tc def
+set label 21 'RUS' at 89.971, 104.329, 0 nopoint tc def
+set label 22 'SJN' at 63.621, 162.829, 0 nopoint tc def
+set label 23 'SOL' at -34.42, -117.63, 0 nopoint tc def
+set label 24 'SPD' at 81.85, 107.053, 0 nopoint tc def
+set label 25 'TRI' at -2.988, 120.065, 0 nopoint tc def
+set label 26 'UNG' at -2.429, 85.15, 0 nopoint tc def
+set arrow from -14.4658,20.7223 to 96.236,-32.516 as 7
+set arrow from -14.4658,20.7223 to -36.42,-119.63 as 7
+set arrow from -14.4658,20.7223 to 22.451,20.378 as 7
+set arrow from -14.4658,20.7223 to 13.584,33.168 as 7
+set arrow from -14.4658,20.7223 to 108.577,89.124 as 7
+set arrow from -14.4658,20.7223 to 52.255,63.835 as 7
+set arrow from -22.6578,16.512 to 96.236,-32.516 as 7
+set arrow from -22.6578,16.512 to -36.42,-119.63 as 7
+set arrow from -22.6578,16.512 to 22.451,20.378 as 7
+set arrow from -22.6578,16.512 to 52.255,63.835 as 7
+set arrow from -22.6578,16.512 to 48.627,41.584 as 7
+set arrow from -22.6578,16.512 to 57.345,24.736 as 7
+set arrow from -22.6578,16.512 to 79.85,105.053 as 7
+set arrow from -21.5312,-29.1512 to 96.236,-32.516 as 7
+set arrow from -21.5312,-29.1512 to -36.42,-119.63 as 7
+set arrow from -21.5312,-29.1512 to 22.451,20.378 as 7
+set arrow from -21.5312,-29.1512 to 52.255,63.835 as 7
+set arrow from -21.5312,-29.1512 to 57.345,24.736 as 7
+set arrow from -21.5312,-29.1512 to -36.42,-119.63 as 7
+set arrow from -12.8576,-35.4571 to 96.236,-32.516 as 7
+set arrow from -12.8576,-35.4571 to -36.42,-119.63 as 7
+set arrow from -12.8576,-35.4571 to 22.451,20.378 as 7
+set arrow from -12.8576,-35.4571 to 48.627,41.584 as 7
+set arrow from -12.8576,-35.4571 to 57.345,24.736 as 7
+set arrow from -12.8576,-35.4571 to -36.42,-119.63 as 7
+set arrow from -12.8576,-35.4571 to 79.24,124.499 as 7
+set arrow from 25.198,-18.1908 to -36.42,-119.63 as 7
+set arrow from 25.198,-18.1908 to 171.785,-123.702 as 7
+set arrow from 25.198,-18.1908 to 108.577,89.124 as 7
+set arrow from 25.198,-18.1908 to -36.42,-119.63 as 7
+set arrow from 25.198,-18.1908 to 171.785,-123.702 as 7
+set arrow from 25.198,-18.1908 to 62.215,80.633 as 7
+set arrow from 25.198,-18.1908 to 36.426,98.132 as 7
+set arrow from 83.8595,86.1281 to -36.42,-119.63 as 7
+set arrow from 83.8595,86.1281 to 22.451,20.378 as 7
+set arrow from 83.8595,86.1281 to 48.627,41.584 as 7
+set arrow from 83.8595,86.1281 to 65.103,49.455 as 7
+set arrow from 83.8595,86.1281 to -4.429,83.15 as 7
+set arrow from 22.7158,-13.0312 to 96.236,-32.516 as 7
+set arrow from 22.7158,-13.0312 to -36.42,-119.63 as 7
+set arrow from 22.7158,-13.0312 to 22.451,20.378 as 7
+set arrow from 22.7158,-13.0312 to 52.255,63.835 as 7
+set arrow from 22.7158,-13.0312 to 48.627,41.584 as 7
+set arrow from 22.7158,-13.0312 to 57.345,24.736 as 7
+set arrow from 22.7158,-13.0312 to 79.85,105.053 as 7
+set arrow from 22.7158,-13.0312 to 79.24,124.499 as 7
+set arrow from 22.7158,-13.0312 to 56.348,91.703 as 7
+set arrow from 22.0014,58.9607 to -36.42,-119.63 as 7
+set arrow from 22.0014,58.9607 to 171.785,-123.702 as 7
+set arrow from 22.0014,58.9607 to 13.584,33.168 as 7
+set arrow from 22.0014,58.9607 to 57.345,24.736 as 7
+set arrow from 22.0014,58.9607 to 171.785,-123.702 as 7
+set arrow from -18.2422,6.72958 to 96.236,-32.516 as 7
+set arrow from -18.2422,6.72958 to -36.42,-119.63 as 7
+set arrow from -18.2422,6.72958 to 22.451,20.378 as 7
+set arrow from -18.2422,6.72958 to 48.627,41.584 as 7
+set arrow from -18.2422,6.72958 to 57.345,24.736 as 7
+set arrow from -18.2422,6.72958 to 79.85,105.053 as 7
+set arrow from -18.2711,16.1054 to 96.236,-32.516 as 7
+set arrow from -18.2711,16.1054 to -36.42,-119.63 as 7
+set arrow from -18.2711,16.1054 to 52.255,63.835 as 7
+set arrow from -18.2711,16.1054 to 48.627,41.584 as 7
+set arrow from -18.2711,16.1054 to 57.345,24.736 as 7
+set arrow from -18.2711,16.1054 to 79.85,105.053 as 7
+set arrow from -18.2711,16.1054 to 79.24,124.499 as 7
+set arrow from -18.2711,16.1054 to 56.348,91.703 as 7
+set arrow from 12.4309,-39.752 to 96.236,-32.516 as 7
+set arrow from 12.4309,-39.752 to -36.42,-119.63 as 7
+set arrow from 12.4309,-39.752 to 13.584,33.168 as 7
+set arrow from 12.4309,-39.752 to 57.345,24.736 as 7
+set arrow from 12.4309,-39.752 to -36.42,-119.63 as 7
+set arrow from 12.4309,-39.752 to 96.236,-32.516 as 7
+set arrow from 48.4204,119.576 to 96.236,-32.516 as 7
+set arrow from 48.4204,119.576 to 13.584,33.168 as 7
+set arrow from 48.4204,119.576 to 57.345,24.736 as 7
+set arrow from 48.4204,119.576 to 79.85,105.053 as 7
+set arrow from -15.6925,42.7097 to 96.236,-32.516 as 7
+set arrow from -15.6925,42.7097 to 22.451,20.378 as 7
+set arrow from -15.6925,42.7097 to 13.584,33.168 as 7
+set arrow from -15.6925,42.7097 to 108.577,89.124 as 7
+set arrow from -15.6925,42.7097 to 52.255,63.835 as 7
+set arrow from -15.6925,42.7097 to 57.345,24.736 as 7
+set arrow from -37.2247,140.824 to 96.236,-32.516 as 7
+set arrow from -37.2247,140.824 to -36.42,-119.63 as 7
+set arrow from -37.2247,140.824 to 62.215,80.633 as 7
+set arrow from -37.2247,140.824 to 36.426,98.132 as 7
+set arrow from -37.2247,140.824 to -4.429,83.15 as 7
+set arrow from -37.2247,140.824 to 51.018,77.347 as 7
+set arrow from 24.3986,-11.0781 to 96.236,-32.516 as 7
+set arrow from 24.3986,-11.0781 to -36.42,-119.63 as 7
+set arrow from 24.3986,-11.0781 to 171.785,-123.702 as 7
+set arrow from 24.3986,-11.0781 to 22.451,20.378 as 7
+set arrow from 24.3986,-11.0781 to 52.255,63.835 as 7
+set arrow from 24.3986,-11.0781 to 57.345,24.736 as 7
+set arrow from 24.3986,-11.0781 to 79.85,105.053 as 7
+set arrow from 24.3986,-11.0781 to -36.42,-119.63 as 7
+set arrow from 24.3986,-11.0781 to 79.24,124.499 as 7
+set arrow from 24.3986,-11.0781 to 171.785,-123.702 as 7
+set arrow from 24.3986,-11.0781 to 62.215,80.633 as 7
+set arrow from 24.3986,-11.0781 to 65.103,49.455 as 7
+set arrow from 24.3986,-11.0781 to -4.429,83.15 as 7
+set arrow from 24.3986,-11.0781 to 56.348,91.703 as 7
+set arrow from 24.3986,-11.0781 to 96.236,-32.516 as 7
+set arrow from 24.3986,-11.0781 to 51.018,77.347 as 7
+set arrow from 24.3986,-11.0781 to 54.944,137.179 as 7
+set arrow from 5.06708,-26.8148 to 96.236,-32.516 as 7
+set arrow from 5.06708,-26.8148 to -36.42,-119.63 as 7
+set arrow from 5.06708,-26.8148 to 171.785,-123.702 as 7
+set arrow from 5.06708,-26.8148 to 13.584,33.168 as 7
+set arrow from 5.06708,-26.8148 to 57.345,24.736 as 7
+set arrow from 5.06708,-26.8148 to 96.236,-32.516 as 7
+set arrow from -36.0262,115.874 to 96.236,-32.516 as 7
+set arrow from -36.0262,115.874 to -36.42,-119.63 as 7
+set arrow from -36.0262,115.874 to 22.451,20.378 as 7
+set arrow from -36.0262,115.874 to 52.255,63.835 as 7
+set arrow from -36.0262,115.874 to 65.103,49.455 as 7
+set arrow from -36.0262,115.874 to -4.429,83.15 as 7
+set arrow from -36.0262,115.874 to 56.348,91.703 as 7
+set arrow from -36.0262,115.874 to -22.54,133.998 as 7
+set arrow from -36.0262,115.874 to -4.988,118.065 as 7
+set arrow from -20.8713,54.3221 to 96.236,-32.516 as 7
+set arrow from -20.8713,54.3221 to -36.42,-119.63 as 7
+set arrow from -20.8713,54.3221 to 22.451,20.378 as 7
+set arrow from -20.8713,54.3221 to 52.255,63.835 as 7
+set arrow from -20.8713,54.3221 to 48.627,41.584 as 7
+set arrow from -20.8713,54.3221 to 57.345,24.736 as 7
+set arrow from -20.8713,54.3221 to 36.426,98.132 as 7
+set arrow from -20.8713,54.3221 to -4.429,83.15 as 7
+set arrow from -20.8713,54.3221 to 56.348,91.703 as 7
+set arrow from 95.1063,-25.9485 to 96.236,-32.516 as 7
+set arrow from 95.1063,-25.9485 to 171.785,-123.702 as 7
+set arrow from 95.1063,-25.9485 to 13.584,33.168 as 7
+set arrow from 95.1063,-25.9485 to 171.785,-123.702 as 7
+set arrow from 95.1063,-25.9485 to 56.348,91.703 as 7
+set arrow from 95.1063,-25.9485 to 96.236,-32.516 as 7
+set arrow from 94.5,-23.1597 to 96.236,-32.516 as 7
+set arrow from 94.5,-23.1597 to 22.451,20.378 as 7
+set arrow from 94.5,-23.1597 to 108.577,89.124 as 7
+set arrow from 94.5,-23.1597 to 52.255,63.835 as 7
+set arrow from 94.5,-23.1597 to 57.345,24.736 as 7
+set arrow from 94.5,-23.1597 to 96.236,-32.516 as 7
+set arrow from -27.6653,-18.9473 to 96.236,-32.516 as 7
+set arrow from -27.6653,-18.9473 to -36.42,-119.63 as 7
+set arrow from -27.6653,-18.9473 to 171.785,-123.702 as 7
+set arrow from -27.6653,-18.9473 to 108.577,89.124 as 7
+set arrow from -27.6653,-18.9473 to 52.255,63.835 as 7
+set arrow from -27.6653,-18.9473 to 48.627,41.584 as 7
+set arrow from -27.6653,-18.9473 to 57.345,24.736 as 7
+set arrow from -27.6653,-18.9473 to 79.85,105.053 as 7
+set arrow from -27.6653,-18.9473 to 171.785,-123.702 as 7
+set arrow from -27.6653,-18.9473 to 62.215,80.633 as 7
+set arrow from -27.6653,-18.9473 to 65.103,49.455 as 7
+set arrow from -27.6653,-18.9473 to -4.429,83.15 as 7
+set arrow from -27.6653,-18.9473 to 51.018,77.347 as 7
+set arrow from -27.6653,-18.9473 to -22.54,133.998 as 7
+set arrow from -29.4369,89.9125 to 96.236,-32.516 as 7
+set arrow from -29.4369,89.9125 to -36.42,-119.63 as 7
+set arrow from -29.4369,89.9125 to 171.785,-123.702 as 7
+set arrow from -29.4369,89.9125 to 57.345,24.736 as 7
+set arrow from -29.4369,89.9125 to 56.348,91.703 as 7
+set arrow from -29.4369,89.9125 to -30.608,147.567 as 7
+set arrow from 102.931,-14.7656 to 96.236,-32.516 as 7
+set arrow from 102.931,-14.7656 to 171.785,-123.702 as 7
+set arrow from 102.931,-14.7656 to 108.577,89.124 as 7
+set arrow from 102.931,-14.7656 to 52.255,63.835 as 7
+set arrow from 102.931,-14.7656 to 57.345,24.736 as 7
+set arrow from 102.931,-14.7656 to 171.785,-123.702 as 7
+set arrow from 102.931,-14.7656 to 62.215,80.633 as 7
+set arrow from 102.931,-14.7656 to -4.429,83.15 as 7
+set arrow from 102.931,-14.7656 to 96.236,-32.516 as 7
+set arrow from 94.4631,8.85349 to 96.236,-32.516 as 7
+set arrow from 94.4631,8.85349 to 171.785,-123.702 as 7
+set arrow from 94.4631,8.85349 to 57.345,24.736 as 7
+set arrow from 94.4631,8.85349 to 56.348,91.703 as 7
+set arrow from 94.4631,8.85349 to -30.608,147.567 as 7
+set arrow from -47.1318,175.003 to 96.236,-32.516 as 7
+set arrow from -47.1318,175.003 to -36.42,-119.63 as 7
+set arrow from -47.1318,175.003 to 22.451,20.378 as 7
+set arrow from -47.1318,175.003 to 13.584,33.168 as 7
+set arrow from -47.1318,175.003 to 48.627,41.584 as 7
+set arrow from -47.1318,175.003 to 57.345,24.736 as 7
+set arrow from -47.1318,175.003 to -30.608,147.567 as 7
+set arrow from -39.1348,108.618 to 96.236,-32.516 as 7
+set arrow from -39.1348,108.618 to -36.42,-119.63 as 7
+set arrow from -39.1348,108.618 to 171.785,-123.702 as 7
+set arrow from -39.1348,108.618 to 108.577,89.124 as 7
+set arrow from -39.1348,108.618 to 52.255,63.835 as 7
+set arrow from -39.1348,108.618 to -4.429,83.15 as 7
+set arrow from -39.1348,108.618 to 51.018,77.347 as 7
+set arrow from 35.9223,-0.329206 to 96.236,-32.516 as 7
+set arrow from 35.9223,-0.329206 to -36.42,-119.63 as 7
+set arrow from 35.9223,-0.329206 to 171.785,-123.702 as 7
+set arrow from 35.9223,-0.329206 to 57.345,24.736 as 7
+set arrow from 35.9223,-0.329206 to 171.785,-123.702 as 7
+set arrow from 35.9223,-0.329206 to 56.348,91.703 as 7
+set arrow from 35.9223,-0.329206 to -30.608,147.567 as 7
+set arrow from -12.2526,9.32194 to 96.236,-32.516 as 7
+set arrow from -12.2526,9.32194 to -36.42,-119.63 as 7
+set arrow from -12.2526,9.32194 to 22.451,20.378 as 7
+set arrow from -12.2526,9.32194 to 52.255,63.835 as 7
+set arrow from -12.2526,9.32194 to 57.345,24.736 as 7
+set arrow from -12.2526,9.32194 to 79.85,105.053 as 7
+set arrow from -12.2526,9.32194 to 56.348,91.703 as 7
+set arrow from -20.5727,-39.1901 to -36.42,-119.63 as 7
+set arrow from -20.5727,-39.1901 to 171.785,-123.702 as 7
+set arrow from -20.5727,-39.1901 to 57.345,24.736 as 7
+set arrow from -20.5727,-39.1901 to -36.42,-119.63 as 7
+set arrow from -38.7255,55.0988 to 96.236,-32.516 as 7
+set arrow from -38.7255,55.0988 to -36.42,-119.63 as 7
+set arrow from -38.7255,55.0988 to 22.451,20.378 as 7
+set arrow from -38.7255,55.0988 to 108.577,89.124 as 7
+set arrow from -38.7255,55.0988 to 48.627,41.584 as 7
+set arrow from -38.7255,55.0988 to 79.85,105.053 as 7
+set arrow from -38.7255,55.0988 to 62.215,80.633 as 7
+set arrow from -38.7255,55.0988 to 65.103,49.455 as 7
+set arrow from -38.7255,55.0988 to 51.018,77.347 as 7
+set arrow from 28.0946,176.758 to -36.42,-119.63 as 7
+set arrow from 28.0946,176.758 to -4.429,83.15 as 7
+set arrow from 28.0946,176.758 to 54.944,137.179 as 7
+set arrow from 28.0946,176.758 to -22.54,133.998 as 7
+set arrow from 28.0946,176.758 to -4.988,118.065 as 7
+set arrow from 104.741,-31.4017 to 96.236,-32.516 as 7
+set arrow from 104.741,-31.4017 to 171.785,-123.702 as 7
+set arrow from 104.741,-31.4017 to 13.584,33.168 as 7
+set arrow from 104.741,-31.4017 to 57.345,24.736 as 7
+set arrow from 104.741,-31.4017 to 171.785,-123.702 as 7
+set arrow from 108.099,-15.4357 to 96.236,-32.516 as 7
+set arrow from 108.099,-15.4357 to 22.451,20.378 as 7
+set arrow from 108.099,-15.4357 to 108.577,89.124 as 7
+set arrow from 108.099,-15.4357 to 52.255,63.835 as 7
+set arrow from 108.099,-15.4357 to 48.627,41.584 as 7
+set arrow from 108.099,-15.4357 to 57.345,24.736 as 7
+set arrow from 108.099,-15.4357 to 62.215,80.633 as 7
+set arrow from 108.099,-15.4357 to 65.103,49.455 as 7
+set arrow from 108.099,-15.4357 to 96.236,-32.516 as 7
+set arrow from 109.143,-29.4844 to 96.236,-32.516 as 7
+set arrow from 109.143,-29.4844 to 171.785,-123.702 as 7
+set arrow from 109.143,-29.4844 to 52.255,63.835 as 7
+set arrow from 109.143,-29.4844 to 57.345,24.736 as 7
+set arrow from 109.143,-29.4844 to 171.785,-123.702 as 7
+set arrow from 109.143,-29.4844 to 96.236,-32.516 as 7
+set arrow from 109.143,-29.4844 to 51.018,77.347 as 7
+set arrow from 86.8376,-7.532 to 96.236,-32.516 as 7
+set arrow from 86.8376,-7.532 to 22.451,20.378 as 7
+set arrow from 86.8376,-7.532 to 108.577,89.124 as 7
+set arrow from 86.8376,-7.532 to 52.255,63.835 as 7
+set arrow from 86.8376,-7.532 to 48.627,41.584 as 7
+set arrow from 86.8376,-7.532 to 57.345,24.736 as 7
+set arrow from 86.8376,-7.532 to 62.215,80.633 as 7
+set arrow from 86.8376,-7.532 to 65.103,49.455 as 7
+set arrow from 86.8376,-7.532 to 96.236,-32.516 as 7
+set arrow from 80.4077,26.4685 to 96.236,-32.516 as 7
+set arrow from 80.4077,26.4685 to 171.785,-123.702 as 7
+set arrow from 80.4077,26.4685 to 57.345,24.736 as 7
+set arrow from 80.4077,26.4685 to 79.85,105.053 as 7
+set arrow from 80.4077,26.4685 to 171.785,-123.702 as 7
+set arrow from 80.4077,26.4685 to 56.348,91.703 as 7
+set arrow from 80.4077,26.4685 to 96.236,-32.516 as 7
+set arrow from 80.4077,26.4685 to -30.608,147.567 as 7
+set arrow from 77.4799,-23.622 to 96.236,-32.516 as 7
+set arrow from 77.4799,-23.622 to -36.42,-119.63 as 7
+set arrow from 77.4799,-23.622 to 22.451,20.378 as 7
+set arrow from 77.4799,-23.622 to 108.577,89.124 as 7
+set arrow from 77.4799,-23.622 to 48.627,41.584 as 7
+set arrow from 77.4799,-23.622 to 57.345,24.736 as 7
+set arrow from 77.4799,-23.622 to 62.215,80.633 as 7
+set arrow from 77.4799,-23.622 to 65.103,49.455 as 7
+set arrow from 77.4799,-23.622 to 96.236,-32.516 as 7
+set arrow from 77.4799,-23.622 to 51.018,77.347 as 7
+set arrow from 77.4799,-23.622 to -22.54,133.998 as 7
+set arrow from -59.2117,37.8271 to 96.236,-32.516 as 7
+set arrow from -59.2117,37.8271 to -36.42,-119.63 as 7
+set arrow from -59.2117,37.8271 to 22.451,20.378 as 7
+set arrow from -59.2117,37.8271 to 108.577,89.124 as 7
+set arrow from -59.2117,37.8271 to 48.627,41.584 as 7
+set arrow from -59.2117,37.8271 to 57.345,24.736 as 7
+set arrow from -59.2117,37.8271 to 62.215,80.633 as 7
+set arrow from -59.2117,37.8271 to 65.103,49.455 as 7
+set arrow from -59.2117,37.8271 to 51.018,77.347 as 7
+set arrow from 119.103,-38.774 to 96.236,-32.516 as 7
+set arrow from 119.103,-38.774 to 171.785,-123.702 as 7
+set arrow from 119.103,-38.774 to 13.584,33.168 as 7
+set arrow from 119.103,-38.774 to 57.345,24.736 as 7
+set arrow from 119.103,-38.774 to 79.85,105.053 as 7
+set arrow from 119.103,-38.774 to 171.785,-123.702 as 7
+set arrow from 119.103,-38.774 to 56.348,91.703 as 7
+set arrow from 117.487,-37.235 to 96.236,-32.516 as 7
+set arrow from 117.487,-37.235 to 171.785,-123.702 as 7
+set arrow from 117.487,-37.235 to 13.584,33.168 as 7
+set arrow from 117.487,-37.235 to 57.345,24.736 as 7
+set arrow from 117.487,-37.235 to 79.85,105.053 as 7
+set arrow from 117.487,-37.235 to 171.785,-123.702 as 7
+set arrow from 117.487,-37.235 to 56.348,91.703 as 7
+set arrow from 19.5132,-38.4112 to 96.236,-32.516 as 7
+set arrow from 19.5132,-38.4112 to -36.42,-119.63 as 7
+set arrow from 19.5132,-38.4112 to 171.785,-123.702 as 7
+set arrow from 19.5132,-38.4112 to 22.451,20.378 as 7
+set arrow from 19.5132,-38.4112 to 52.255,63.835 as 7
+set arrow from 19.5132,-38.4112 to -36.42,-119.63 as 7
+set arrow from 19.5132,-38.4112 to 171.785,-123.702 as 7
+set arrow from 19.5132,-38.4112 to -4.429,83.15 as 7
+set arrow from 19.5132,-38.4112 to 96.236,-32.516 as 7
+set arrow from 93.584,-34.6487 to 96.236,-32.516 as 7
+set arrow from 93.584,-34.6487 to 22.451,20.378 as 7
+set arrow from 93.584,-34.6487 to 13.584,33.168 as 7
+set arrow from 93.584,-34.6487 to 108.577,89.124 as 7
+set arrow from 93.584,-34.6487 to 96.236,-32.516 as 7
+set arrow from 92.1333,-36.1557 to 96.236,-32.516 as 7
+set arrow from 92.1333,-36.1557 to 22.451,20.378 as 7
+set arrow from 92.1333,-36.1557 to 13.584,33.168 as 7
+set arrow from 92.1333,-36.1557 to 108.577,89.124 as 7
+set arrow from 92.1333,-36.1557 to 52.255,63.835 as 7
+set arrow from 92.1333,-36.1557 to 96.236,-32.516 as 7
+set arrow from -7.38094,-8.8056 to 96.236,-32.516 as 7
+set arrow from -7.38094,-8.8056 to -36.42,-119.63 as 7
+set arrow from -7.38094,-8.8056 to 22.451,20.378 as 7
+set arrow from -7.38094,-8.8056 to 52.255,63.835 as 7
+set arrow from -7.38094,-8.8056 to 48.627,41.584 as 7
+set arrow from -7.38094,-8.8056 to 57.345,24.736 as 7
+set arrow from -7.38094,-8.8056 to 79.85,105.053 as 7
+set arrow from -7.38094,-8.8056 to -36.42,-119.63 as 7
+set arrow from -7.38094,-8.8056 to 79.24,124.499 as 7
+set arrow from -7.38094,-8.8056 to 56.348,91.703 as 7
+set arrow from 93.8612,-42.3389 to 96.236,-32.516 as 7
+set arrow from 93.8612,-42.3389 to 22.451,20.378 as 7
+set arrow from 93.8612,-42.3389 to 52.255,63.835 as 7
+set arrow from 93.8612,-42.3389 to 57.345,24.736 as 7
+set arrow from 93.8612,-42.3389 to 79.85,105.053 as 7
+set arrow from 93.8612,-42.3389 to 96.236,-32.516 as 7
+set arrow from 36.9524,60.732 to 96.236,-32.516 as 7
+set arrow from 36.9524,60.732 to -36.42,-119.63 as 7
+set arrow from 36.9524,60.732 to 22.451,20.378 as 7
+set arrow from 36.9524,60.732 to 52.255,63.835 as 7
+set arrow from 36.9524,60.732 to 48.627,41.584 as 7
+set arrow from 36.9524,60.732 to 57.345,24.736 as 7
+set arrow from 36.9524,60.732 to 79.85,105.053 as 7
+set arrow from 36.9524,60.732 to 79.24,124.499 as 7
+set arrow from 36.9524,60.732 to 56.348,91.703 as 7
+set arrow from 36.9524,60.732 to 96.236,-32.516 as 7
+set arrow from 36.9524,60.732 to 54.944,137.179 as 7
+set arrow from 31.0934,-12.7979 to 96.236,-32.516 as 7
+set arrow from 31.0934,-12.7979 to -36.42,-119.63 as 7
+set arrow from 31.0934,-12.7979 to 22.451,20.378 as 7
+set arrow from 31.0934,-12.7979 to 108.577,89.124 as 7
+set arrow from 31.0934,-12.7979 to 52.255,63.835 as 7
+set arrow from 31.0934,-12.7979 to 48.627,41.584 as 7
+set arrow from 31.0934,-12.7979 to 57.345,24.736 as 7
+set arrow from 31.0934,-12.7979 to 62.215,80.633 as 7
+set arrow from 31.0934,-12.7979 to 36.426,98.132 as 7
+set arrow from 31.0934,-12.7979 to 65.103,49.455 as 7
+set arrow from 31.0934,-12.7979 to 51.018,77.347 as 7
+set arrow from -13.6347,145.93 to -36.42,-119.63 as 7
+set arrow from -13.6347,145.93 to 13.584,33.168 as 7
+set arrow from -13.6347,145.93 to 57.345,24.736 as 7
+set arrow from -13.6347,145.93 to 79.85,105.053 as 7
+set arrow from -13.6347,145.93 to -30.608,147.567 as 7
+set arrow from 72.2655,-1.26249 to 96.236,-32.516 as 7
+set arrow from 72.2655,-1.26249 to 108.577,89.124 as 7
+set arrow from 72.2655,-1.26249 to 57.345,24.736 as 7
+set arrow from 72.2655,-1.26249 to 62.215,80.633 as 7
+set arrow from 72.2655,-1.26249 to 65.103,49.455 as 7
+set arrow from 72.2655,-1.26249 to 96.236,-32.516 as 7
+set arrow from 72.2655,-1.26249 to 51.018,77.347 as 7
+set arrow from -12.4826,-5.498 to 96.236,-32.516 as 7
+set arrow from -12.4826,-5.498 to -36.42,-119.63 as 7
+set arrow from -12.4826,-5.498 to 22.451,20.378 as 7
+set arrow from -12.4826,-5.498 to 108.577,89.124 as 7
+set arrow from -12.4826,-5.498 to 52.255,63.835 as 7
+set arrow from -12.4826,-5.498 to 57.345,24.736 as 7
+set arrow from -12.4826,-5.498 to -36.42,-119.63 as 7
+set arrow from -12.4826,-5.498 to 62.215,80.633 as 7
+set arrow from -12.4826,-5.498 to 36.426,98.132 as 7
+set arrow from -12.4826,-5.498 to 65.103,49.455 as 7
+set arrow from -12.4826,-5.498 to 56.348,91.703 as 7
+set arrow from -12.4826,-5.498 to 51.018,77.347 as 7
+set arrow from -12.4826,-5.498 to -22.54,133.998 as 7
+set arrow from -12.4826,-5.498 to -2.096,98.067 as 7
+set arrow from -32.9111,121.069 to 96.236,-32.516 as 7
+set arrow from -32.9111,121.069 to -36.42,-119.63 as 7
+set arrow from -32.9111,121.069 to 22.451,20.378 as 7
+set arrow from -32.9111,121.069 to 13.584,33.168 as 7
+set arrow from -32.9111,121.069 to 108.577,89.124 as 7
+set arrow from -32.9111,121.069 to 52.255,63.835 as 7
+set arrow from -32.9111,121.069 to 57.345,24.736 as 7
+set arrow from -32.9111,121.069 to 79.85,105.053 as 7
+set arrow from -32.9111,121.069 to 79.24,124.499 as 7
+set arrow from -32.9111,121.069 to 56.348,91.703 as 7
+set arrow from 15.6092,-6.52875 to 96.236,-32.516 as 7
+set arrow from 15.6092,-6.52875 to -36.42,-119.63 as 7
+set arrow from 15.6092,-6.52875 to 22.451,20.378 as 7
+set arrow from 15.6092,-6.52875 to 52.255,63.835 as 7
+set arrow from 15.6092,-6.52875 to 48.627,41.584 as 7
+set arrow from 15.6092,-6.52875 to 57.345,24.736 as 7
+set arrow from 15.6092,-6.52875 to 79.85,105.053 as 7
+set arrow from 15.6092,-6.52875 to 79.24,124.499 as 7
+set arrow from 15.6092,-6.52875 to 56.348,91.703 as 7
+set arrow from 15.6092,-6.52875 to 96.236,-32.516 as 7
+set arrow from 101.87,-16.6202 to 96.236,-32.516 as 7
+set arrow from 101.87,-16.6202 to 22.451,20.378 as 7
+set arrow from 101.87,-16.6202 to 13.584,33.168 as 7
+set arrow from 101.87,-16.6202 to 108.577,89.124 as 7
+set arrow from 101.87,-16.6202 to 52.255,63.835 as 7
+set arrow from 101.87,-16.6202 to 57.345,24.736 as 7
+set arrow from 101.87,-16.6202 to 79.85,105.053 as 7
+set arrow from 101.87,-16.6202 to 96.236,-32.516 as 7
+set arrow from 103.491,-52.2216 to 96.236,-32.516 as 7
+set arrow from 103.491,-52.2216 to 171.785,-123.702 as 7
+set arrow from 103.491,-52.2216 to 22.451,20.378 as 7
+set arrow from 103.491,-52.2216 to 171.785,-123.702 as 7
+set arrow from 103.491,-52.2216 to 96.236,-32.516 as 7
+set arrow from 103.491,-52.2216 to 51.018,77.347 as 7
+plot '<echo -22.54  133.998  0' pt 9 ps 1 lc 0
+replot '<echo 20.614  145.011' pt 9 ps 1 lc 0
+replot '<echo 51.018  77.347' pt 9 ps 1 lc 0
+replot '<echo -30.608  147.567' pt 9 ps 1 lc 0
+replot '<echo 65.103  49.455' pt 9 ps 1 lc 0
+replot '<echo 54.944  137.179' pt 9 ps 1 lc 0
+replot '<echo 48.627  41.584' pt 9 ps 1 lc 0
+replot '<echo 22.451  20.378' pt 9 ps 1 lc 0
+replot '<echo 96.236  -32.516' pt 9 ps 1 lc 0
+replot '<echo 13.584  33.168' pt 9 ps 1 lc 0
+replot '<echo -2.096  98.067' pt 9 ps 1 lc 0
+replot '<echo 108.577  89.124' pt 9 ps 1 lc 0
+replot '<echo 171.785  -123.702' pt 9 ps 1 lc 0
+replot '<echo 57.345  24.736' pt 9 ps 1 lc 0
+replot '<echo 79.24  124.499' pt 9 ps 1 lc 0
+replot '<echo 56.348  91.703' pt 9 ps 1 lc 0
+replot '<echo 62.215  80.633' pt 9 ps 1 lc 0
+replot '<echo 30.756  124.612' pt 9 ps 1 lc 0
+replot '<echo 36.426  98.132' pt 9 ps 1 lc 0
+replot '<echo 52.255  63.835' pt 9 ps 1 lc 0
+replot '<echo 87.971  102.329' pt 9 ps 1 lc 0
+replot '<echo 61.621  160.829' pt 9 ps 1 lc 0
+replot '<echo -36.42  -119.63' pt 9 ps 1 lc 0
+replot '<echo 79.85  105.053' pt 9 ps 1 lc 0
+replot '<echo -4.988  118.065' pt 9 ps 1 lc 0
+replot '<echo -4.429  83.15' pt 9 ps 1 lc 0
+replot '<echo -14.4658  20.7223' pt 7 ps 2 lc 1
+replot '<echo -22.6578  16.512' pt 7 ps 2 lc 1
+replot '<echo -21.5312  -29.1512' pt 7 ps 2 lc 1
+replot '<echo -12.8576  -35.4571' pt 7 ps 2 lc 1
+replot '<echo 25.198  -18.1908' pt 7 ps 2 lc 1
+replot '<echo 83.8595  86.1281' pt 7 ps 2 lc 1
+replot '<echo 22.7158  -13.0312' pt 7 ps 2 lc 1
+replot '<echo 22.0014  58.9607' pt 7 ps 2 lc 1
+replot '<echo -18.2422  6.72958' pt 7 ps 2 lc 1
+replot '<echo -18.2711  16.1054' pt 7 ps 2 lc 1
+replot '<echo 12.4309  -39.752' pt 7 ps 2 lc 1
+replot '<echo 48.4204  119.576' pt 7 ps 2 lc 1
+replot '<echo -15.6925  42.7097' pt 7 ps 2 lc 1
+replot '<echo -37.2247  140.824' pt 7 ps 2 lc 1
+replot '<echo 24.3986  -11.0781' pt 7 ps 2 lc 1
+replot '<echo 5.06708  -26.8148' pt 7 ps 2 lc 1
+replot '<echo -36.0262  115.874' pt 7 ps 2 lc 1
+replot '<echo -20.8713  54.3221' pt 7 ps 2 lc 1
+replot '<echo 95.1063  -25.9485' pt 7 ps 2 lc 1
+replot '<echo 94.5  -23.1597' pt 7 ps 2 lc 1
+replot '<echo -27.6653  -18.9473' pt 7 ps 2 lc 1
+replot '<echo -29.4369  89.9125' pt 7 ps 2 lc 1
+replot '<echo 102.931  -14.7656' pt 7 ps 2 lc 1
+replot '<echo 94.4631  8.85349' pt 7 ps 2 lc 1
+replot '<echo -47.1318  175.003' pt 7 ps 2 lc 1
+replot '<echo -39.1348  108.618' pt 7 ps 2 lc 1
+replot '<echo 35.9223  -0.329206' pt 7 ps 2 lc 1
+replot '<echo -12.2526  9.32194' pt 7 ps 2 lc 1
+replot '<echo -20.5727  -39.1901' pt 7 ps 2 lc 1
+replot '<echo -38.7255  55.0988' pt 7 ps 2 lc 1
+replot '<echo 28.0946  176.758' pt 7 ps 2 lc 1
+replot '<echo 104.741  -31.4017' pt 7 ps 2 lc 1
+replot '<echo 108.099  -15.4357' pt 7 ps 2 lc 1
+replot '<echo 109.143  -29.4844' pt 7 ps 2 lc 1
+replot '<echo 86.8376  -7.532' pt 7 ps 2 lc 1
+replot '<echo 80.4077  26.4685' pt 7 ps 2 lc 1
+replot '<echo 77.4799  -23.622' pt 7 ps 2 lc 1
+replot '<echo -59.2117  37.8271' pt 7 ps 2 lc 1
+replot '<echo 119.103  -38.774' pt 7 ps 2 lc 1
+replot '<echo 117.487  -37.235' pt 7 ps 2 lc 1
+replot '<echo 19.5132  -38.4112' pt 7 ps 2 lc 1
+replot '<echo 93.584  -34.6487' pt 7 ps 2 lc 1
+replot '<echo 92.1333  -36.1557' pt 7 ps 2 lc 1
+replot '<echo -7.38094  -8.8056' pt 7 ps 2 lc 1
+replot '<echo 93.8612  -42.3389' pt 7 ps 2 lc 1
+replot '<echo 36.9524  60.732' pt 7 ps 2 lc 1
+replot '<echo 31.0934  -12.7979' pt 7 ps 2 lc 1
+replot '<echo -13.6347  145.93' pt 7 ps 2 lc 1
+replot '<echo 72.2655  -1.26249' pt 7 ps 2 lc 1
+replot '<echo -12.4826  -5.498' pt 7 ps 2 lc 1
+replot '<echo -32.9111  121.069' pt 7 ps 2 lc 1
+replot '<echo 15.6092  -6.52875' pt 7 ps 2 lc 1
+replot '<echo 101.87  -16.6202' pt 7 ps 2 lc 1
+replot '<echo 103.491  -52.2216' pt 7 ps 2 lc 1
+pause 60

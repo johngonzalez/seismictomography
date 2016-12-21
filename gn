@@ -1,0 +1,5 @@
+#!/bin/sh
+awk '{if(NR>1)print $1,$2}' CAL > XYZ
+awk '{if(NR==1){print $1,$2,$3}if(NR>54){print $0}}' MODII>VEL
+cat XYZ VEL > MOD_VEL
+rm XYZ VEL

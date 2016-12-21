@@ -1,0 +1,114 @@
+set size square
+set xrange[-125:200]
+set yrange[-125:200]
+set key out vert
+set xlabel 'Posicion x (Km)'
+set ylabel 'Posicion y (Km)'
+unset key
+set label 1 'ACA' at -20.54, 135.998, 0 nopoint tc def
+set label 2 'AGL' at 22.614, 147.011, 0 nopoint tc def
+set label 3 'ARE' at 53.018, 79.347, 0 nopoint tc def
+set label 4 'CAP' at -28.608, 149.567, 0 nopoint tc def
+set label 5 'CAR' at 67.103, 51.455, 0 nopoint tc def
+set label 6 'CHA' at 56.944, 139.179, 0 nopoint tc def
+set label 7 'COC' at 50.627, 43.584, 0 nopoint tc def
+set label 8 'CUC' at 24.451, 22.378, 0 nopoint tc def
+set label 9 'DBB' at 98.236, -30.516, 0 nopoint tc def
+set label 10 'EL4' at 15.584, 35.168, 0 nopoint tc def
+set label 11 'GIL' at -0.096, 100.067, 0 nopoint tc def
+set label 12 'GUA' at 110.577, 91.124, 0 nopoint tc def
+set label 13 'HEL' at 173.785, -121.702, 0 nopoint tc def
+set label 14 'JUR' at 59.345, 26.736, 0 nopoint tc def
+set label 15 'LOL' at 81.24, 126.499, 0 nopoint tc def
+set label 16 'MUL' at 58.348, 93.703, 0 nopoint tc def
+set label 17 'NAN' at 64.215, 82.633, 0 nopoint tc def
+set label 18 'NEC' at 32.756, 126.612, 0 nopoint tc def
+set label 19 'PPI' at 38.426, 100.132, 0 nopoint tc def
+set label 20 'PRI' at 54.255, 65.835, 0 nopoint tc def
+set label 21 'RUS' at 89.971, 104.329, 0 nopoint tc def
+set label 22 'SJN' at 63.621, 162.829, 0 nopoint tc def
+set label 23 'SOL' at -34.42, -117.63, 0 nopoint tc def
+set label 24 'SPD' at 81.85, 107.053, 0 nopoint tc def
+set label 25 'TRI' at -2.988, 120.065, 0 nopoint tc def
+set label 26 'UNG' at -2.429, 85.15, 0 nopoint tc def
+plot '<echo -22.54  133.998  0' pt 9 ps 1 lc 0
+replot '<echo 20.614  145.011' pt 9 ps 1 lc 0
+replot '<echo 51.018  77.347' pt 9 ps 1 lc 0
+replot '<echo -30.608  147.567' pt 9 ps 1 lc 0
+replot '<echo 65.103  49.455' pt 9 ps 1 lc 0
+replot '<echo 54.944  137.179' pt 9 ps 1 lc 0
+replot '<echo 48.627  41.584' pt 9 ps 1 lc 0
+replot '<echo 22.451  20.378' pt 9 ps 1 lc 0
+replot '<echo 96.236  -32.516' pt 9 ps 1 lc 0
+replot '<echo 13.584  33.168' pt 9 ps 1 lc 0
+replot '<echo -2.096  98.067' pt 9 ps 1 lc 0
+replot '<echo 108.577  89.124' pt 9 ps 1 lc 0
+replot '<echo 171.785  -123.702' pt 9 ps 1 lc 0
+replot '<echo 57.345  24.736' pt 9 ps 1 lc 0
+replot '<echo 79.24  124.499' pt 9 ps 1 lc 0
+replot '<echo 56.348  91.703' pt 9 ps 1 lc 0
+replot '<echo 62.215  80.633' pt 9 ps 1 lc 0
+replot '<echo 30.756  124.612' pt 9 ps 1 lc 0
+replot '<echo 36.426  98.132' pt 9 ps 1 lc 0
+replot '<echo 52.255  63.835' pt 9 ps 1 lc 0
+replot '<echo 87.971  102.329' pt 9 ps 1 lc 0
+replot '<echo 61.621  160.829' pt 9 ps 1 lc 0
+replot '<echo -36.42  -119.63' pt 9 ps 1 lc 0
+replot '<echo 79.85  105.053' pt 9 ps 1 lc 0
+replot '<echo -4.988  118.065' pt 9 ps 1 lc 0
+replot '<echo -4.429  83.15' pt 9 ps 1 lc 0
+replot '<echo -9.23887  -8.22346' pt 7 ps 2 lc 1
+replot '<echo -10.7209  -14.4341' pt 7 ps 2 lc 1
+replot '<echo -14.9448  -39.8043' pt 7 ps 2 lc 1
+replot '<echo -7.97341  -47.146' pt 7 ps 2 lc 1
+replot '<echo 17.8164  -25.2121' pt 7 ps 2 lc 1
+replot '<echo 31.05  -20.1796' pt 7 ps 2 lc 1
+replot '<echo 47.6475  -58.263' pt 7 ps 2 lc 1
+replot '<echo 7.17194  7.93856' pt 7 ps 2 lc 1
+replot '<echo -9.40355  -17.2585' pt 7 ps 2 lc 1
+replot '<echo 0.133628  -28.3708' pt 7 ps 2 lc 1
+replot '<echo 11.3528  -40.776' pt 7 ps 2 lc 1
+replot '<echo 50.7581  120.157' pt 7 ps 2 lc 1
+replot '<echo 31.5144  -32.3686' pt 7 ps 2 lc 1
+replot '<echo -17.7401  25.7909' pt 7 ps 2 lc 1
+replot '<echo 18.2593  -15.289' pt 7 ps 2 lc 1
+replot '<echo 0.411521  -29.9174' pt 7 ps 2 lc 1
+replot '<echo -43.7359  121.98' pt 7 ps 2 lc 1
+replot '<echo -29.0493  54.7037' pt 7 ps 2 lc 1
+replot '<echo 57.5948  -42.7837' pt 7 ps 2 lc 1
+replot '<echo 97.4688  -32.6441' pt 7 ps 2 lc 1
+replot '<echo -39.8516  -38.7462' pt 7 ps 2 lc 1
+replot '<echo -36.3529  20.743' pt 7 ps 2 lc 1
+replot '<echo 106.538  -14.9052' pt 7 ps 2 lc 1
+replot '<echo 85.8842  -12.9923' pt 7 ps 2 lc 1
+replot '<echo -88.5806  158.723' pt 7 ps 2 lc 1
+replot '<echo 12.2267  -39.8779' pt 7 ps 2 lc 1
+replot '<echo 30.2516  -11.7016' pt 7 ps 2 lc 1
+replot '<echo 22.0729  -40.9817' pt 7 ps 2 lc 1
+replot '<echo -25.0338  -46.4193' pt 7 ps 2 lc 1
+replot '<echo -25.7006  22.7873' pt 7 ps 2 lc 1
+replot '<echo 38.0304  124.726' pt 7 ps 2 lc 1
+replot '<echo 91.102  -40.0753' pt 7 ps 2 lc 1
+replot '<echo 116.181  -24.1494' pt 7 ps 2 lc 1
+replot '<echo 109.042  -29.6023' pt 7 ps 2 lc 1
+replot '<echo 89.4118  -14.2887' pt 7 ps 2 lc 1
+replot '<echo 46.4466  18.4291' pt 7 ps 2 lc 1
+replot '<echo 85.3215  -35.5427' pt 7 ps 2 lc 1
+replot '<echo 6.88784  -59.3533' pt 7 ps 2 lc 1
+replot '<echo 90.4207  -63.3172' pt 7 ps 2 lc 1
+replot '<echo 100.03  -54.6737' pt 7 ps 2 lc 1
+replot '<echo 13.9432  -37.4579' pt 7 ps 2 lc 1
+replot '<echo 95.5573  -47.5177' pt 7 ps 2 lc 1
+replot '<echo 93.2929  -49.825' pt 7 ps 2 lc 1
+replot '<echo -13.3149  -13.3468' pt 7 ps 2 lc 1
+replot '<echo 77.1963  -62.0819' pt 7 ps 2 lc 1
+replot '<echo 35.9175  60.3982' pt 7 ps 2 lc 1
+replot '<echo 44.0372  -46.9899' pt 7 ps 2 lc 1
+replot '<echo -49.9086  125.548' pt 7 ps 2 lc 1
+replot '<echo 42.8749  -14.8214' pt 7 ps 2 lc 1
+replot '<echo -17.5586  -13.1645' pt 7 ps 2 lc 1
+replot '<echo -43.7081  129.527' pt 7 ps 2 lc 1
+replot '<echo 13.3142  -15.5362' pt 7 ps 2 lc 1
+replot '<echo 109.052  -26.0037' pt 7 ps 2 lc 1
+replot '<echo 77.7224  -64.7203' pt 7 ps 2 lc 1
+pause 600
